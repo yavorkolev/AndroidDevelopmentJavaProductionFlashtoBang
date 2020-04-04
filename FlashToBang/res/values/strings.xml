@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flash-To-Bang</string>
+    <string name="tvSecsLabel">00</string>
+    <string name="tvMinsLabel">0</string>
+    <string name="tvSeparatorLabel">:</string>
+    <string name="tvMillsLabel">000</string>
+    <string name="flashButtonLabel">Press at: Flash/Lightning</string>
+    <string name="bangButtonLabel">Press at: Bang/Thunder</string>
+    <string name="tvFlashLabel">Flash: </string>
+    <string name="tvBangLabel">Bang: </string>
+    <string name="tvTimeLabel">Distance: </string>
+</resources>

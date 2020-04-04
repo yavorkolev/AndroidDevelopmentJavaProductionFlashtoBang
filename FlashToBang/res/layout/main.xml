@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:gravity="start"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvMins"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:text="@string/tvMinsLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvSepMinSecs"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:text="@string/tvSeparatorLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvSecs"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:text="@string/tvSecsLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvSepSecsMills"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:text="@string/tvSeparatorLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvMills"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:text="@string/tvMillsLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />   
+              
+    </LinearLayout>
+ 
+    <Button
+        android:id="@+id/flashButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F50505"
+        android:text="@string/flashButtonLabel"
+        android:textColor="#FFFF4D"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bangButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFF4D"
+        android:text="@string/bangButtonLabel"
+        android:textColor="#F50505"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/listViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/flashButton"
+        android:layout_below="@+id/spinnerTemperature"
+        android:layout_centerHorizontal="true" >
+
+    </ListView>
+
+    <Spinner
+        android:id="@+id/spinnerTemperature"
+        android:layout_width="232dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:textSize="12sp" />
+
+</RelativeLayout>
